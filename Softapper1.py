@@ -46,7 +46,7 @@ def main():
             print("Computer is the Winner!")
             computer_score += 1
 
-        rounds += 1
+     print(f" Round: {rounds}")
         print(f"Score - You: {player_score}, Computer: {computer_score}")
 
     print("\nGame over!")
