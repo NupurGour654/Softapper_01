@@ -1,4 +1,5 @@
 import random
+from datetime import datetime
 
 def get_computer_choice():
     """Randomly selects rock, paper, or scissors for the computer."""
@@ -52,6 +53,7 @@ def main():
     print("\nGame over!")
     print(f"Final Score after {rounds} rounds - You: {player_score}, Computer: {computer_score}")
     print("Thanks for playing!")
+print("🕒 Game ended at:", datetime.now().strftime("%H:%M:%S"))
 
 if __name__ == "__main__":
     main()
