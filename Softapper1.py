@@ -29,7 +29,7 @@ def main():
         if player_choice == "quit":
             break
         if player_choice not in ["rock", "paper", "scissors"]:
-            print("Invalid choice. Please try again.")
+            print("Invalid choice.Please enter rock, paper, or scissors")
             continue
 
         computer_choice = get_computer_choice()
