@@ -40,10 +40,10 @@ def main():
         if winner == "tie":
             print("It's a tie!")
         elif winner == "player":
-            print("You win!")
+            print("You are the Winner!")
             player_score += 1
         else:
-            print("Computer wins!")
+            print("Computer is the Winner!")
             computer_score += 1
 
         rounds += 1
