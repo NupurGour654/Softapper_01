@@ -1,10 +1,12 @@
 import random
 
 def get_computer_choice():
+    """Randomly selects rock, paper, or scissors for the computer."""
     choices = ["rock", "paper", "scissors"]
     return random.choice(choices)
 
 def decide_winner(player_choice, computer_choice):
+    """Determines the winner based on player and computer choices."""
     if player_choice == computer_choice:
         return "tie"
     elif (player_choice == "rock" and computer_choice == "scissors") or \
@@ -15,6 +17,7 @@ def decide_winner(player_choice, computer_choice):
         return "computer"
 
 def main():
+    """Main function to run the Rock, Paper, Scissors game."""
     print("Welcome to Rock, Paper, Scissors!")
     player_score = 0
     computer_score = 0
