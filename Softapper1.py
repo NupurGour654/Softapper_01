@@ -1,5 +1,6 @@
 import random
 from datetime import datetime
+import os
 
 def get_computer_choice():
     """Randomly selects rock, paper, or scissors for the computer."""
@@ -16,6 +17,9 @@ def decide_winner(player_choice, computer_choice):
         return "player"
     else:
         return "computer"
+def clear_screen():
+    """Clears the terminal screen."""
+    os.system('cls' if os.name == 'nt' else 'clear')
 
 def main():
     """Main function to run the Rock, Paper, Scissors game."""
@@ -25,6 +29,10 @@ def main():
     rounds = 0
 
     while True:
+        while True:
+    clear_screen()  
+    player_choice = input("\nEnter your choice (rock, paper, scissors) or 'quit' to end the game: ").lower()
+
         player_choice = input("\nEnter your choice (rock, paper, scissors) or 'quit' to end the game: ").lower()
 
         if player_choice == "quit":
