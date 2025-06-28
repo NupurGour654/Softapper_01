@@ -49,6 +49,9 @@ def main():
         if winner == "tie":
             print("It's a tie!")
         elif winner == "player":
+            if player_score == 3:
+               print("🔥 You're on fire!")
+
             print("You are the Winner!")
             player_score += 1
         else:
