@@ -12,7 +12,7 @@ This repository contains a Python program that implements the classic game of Ro
 **How to Play**
 
 1. The program will display instructions and prompt you to choose your move: Rock (rock), Paper (paper), or Scissors (scissors),invalid for others.
-2. Enter your choice (case-insensitive) and press Enter.
+2. Enter your choice (case-insensitivbvhjgiuupi
 3. The computer will randomly generate its move.
 4. The program will determine the winner and display the results:
    - You win
